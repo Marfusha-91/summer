@@ -1,0 +1,81 @@
+
+.wrapper_profile {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: 0px 0px;
+    background-color: #E5E5E5;
+
+}
+
+
+
+.personal_data {
+    background-color: #E5E5E5;
+    margin-left: 57px;
+
+}
+
+.photo {
+    padding-top: 39px;
+}
+
+.photo img {
+    width: 280px;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 100%;
+
+
+
+}
+
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    padding-top: 29px;
+}
+
+.nick_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    padding-top: 12px;
+}
+.nick_name a {
+    text-decoration: none;
+    color: #0064EB;
+}
+.subscriber {
+    display: flex;
+    padding-top: 25px;
+}
+.followers{
+    padding-left: 7px;
+}
+.following {
+    padding-left: 24px;
+}
+.itemName  { font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #0064EB;}
+
+.repoLength {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    padding-top: 28px;
+}

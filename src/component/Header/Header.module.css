@@ -1,0 +1,43 @@
+.headerTop {
+    display: flex;
+    background: #0064EB;
+    height: 72px;
+
+
+}
+
+
+.searchString input {
+   width: 32rem;
+    /*margin: 0 auto;*/
+    margin-top: 16px;
+    margin-left: 22px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    background: white url(../assets/icon_search.png) 10px 15px no-repeat;
+    padding-left: 30px;
+
+
+}
+
+.logo {
+    padding-left: 41px;
+    padding-top: 16px;
+}
+
+.loop img{
+
+    display: block;
+    margin: 0 auto;
+    padding-top: 18em;
+
+
+}
+
+
+
+
+
+
+

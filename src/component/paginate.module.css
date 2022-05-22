@@ -1,0 +1,16 @@
+.wrapper_pages {
+    float: right;
+    margin-right: 230px;
+    cursor: pointer;
+    left: 10px;
+}
+.pages {
+    padding-left: 10px;
+}
+.pages:hover {
+    width: 21px;
+    height: 25px;
+    background: #0064EB;
+    border-radius: 3px;
+
+}
