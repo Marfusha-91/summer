@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './App.css';
 import Header from "./component/Header/Header";
 import Profile from "./component/Profile/Profile";
-import PaginatedItems from "./component/paginate";
+import PaginatedItems from "./component/PajinatedItems";
 import s from "./component/Header/Header.module.css";
 import loop from './component/assets/loop.png'
 
@@ -93,7 +93,9 @@ function App() {
                               login={login} avatar={avatar}
                               following={following}
                               userInput={userInput} url={url}
-                              repo={repo}/> <PaginatedItems pages={pages} onPageChanged={onPageChanged}/></div>
+                              repo={repo}/> <PaginatedItems pages={pages} onPageChanged={onPageChanged}/>
+
+                </div>
                 }
 
             </div>
