@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import './App.css';
 import Header from "./component/Header/Header";
 import Profile from "./component/Profile/Profile";
-import PaginatedItems from "./component/PajinatedItems";
 import s from "./component/Header/Header.module.css";
 import loop from './component/assets/loop.png'
+import Pages from "./component/Pages";
 
 
 function App() {
@@ -86,14 +86,15 @@ function App() {
             <div><Header repoData={repoData} handleChange={handleChange}/>
             </div>
             <div className="profile">
-                {!login && <div className={s.loop}><img src={loop}/> <p className={"startSearch"}>Start with searching
+                {!login && <div className={s.loop}><img src={loop} alt={''}/> <p className={"startSearch"}>Start with searching
                     a GitHub user</p></div>}
                 {login &&
                 <div><Profile name={name} userName={userName} followers={followers}
                               login={login} avatar={avatar}
                               following={following}
                               userInput={userInput} url={url}
-                              repo={repo}/> <PaginatedItems pages={pages} onPageChanged={onPageChanged}/>
+                              repo={repo}/>
+                    <Pages pages={pages} onPageChanged={onPageChanged}/>
 
                 </div>
                 }
